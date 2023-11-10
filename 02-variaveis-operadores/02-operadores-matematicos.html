@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Simples</title>
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+    <script>
+        // declara as variaveis
+        let operando1;
+        let operando2;
+
+        // solicita o primeiro operando
+        operando1 = prompt("Digite o primeiro numero:");
+
+        // solicita o segundo operando
+        operando2 = prompt("Digite o primeiro numero:");
+
+        operando1 = parseFloat(operando1);
+        operando2 = parseFloat(operando2);
+
+        document.write(`Adição: ${operando1} + ${operando2} = ${operando1 + operando2} <br>`);
+
+        document.write(`Subtração: ${operando1} - ${operando2} = ${operando1 - operando2} <br>`);
+
+        document.write(`Multiplicação: ${operando1} * ${operando2} = ${operando1 * operando2} <br>`);
+
+        document.write(`Divisão: ${operando1} / ${operando2} = ${operando1 / operando2} <br>`)
+
+        document.write(`Resto ds divisão: ${operando1} % ${operando2} = ${operando1 % operando2} <br>`)
+
+        document.write(`Exponensiação: ${operando1} elevado a  ${operando2} = ${operando1 ** operando2} <br>`)
+
+        document.write(`Unario de Incremento: ${operando1} apos incrementar = ${++operando1} <br>`)
+
+        document.write(`Unario de Decremento: ${operando1} apos decrementar = ${--operando1} <br>`)
+        
+
+    </script>
+</body>
+</html>
